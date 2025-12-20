@@ -2,13 +2,5 @@
 name = "py-fastapi-project"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = [
-    "beautifulsoup4>=4.14.3",
-    "fastapi==0.110.3",
-    "httpx>=0.28.1",
-    "pydantic==2.7.4 --only-binary=:all:",
-    "pydantic-core==2.18.4 --only-binary=:all:",
-    "uvicorn>=0.38.0",
-]
 [project.scripts]
 app = "main:app"
