@@ -5,7 +5,6 @@ A FastAPI application that looks up CAS (Chemical Abstracts Service) numbers for
 ## Features
 
 - Single POST endpoint `/lookup-cas` that accepts a compound name
-- Input validation using Pydantic
 - Web scraping from https://www.thegoodscentscompany.com/allproc-1.html
 - Async HTTP requests with httpx
 - Interactive API documentation at `/docs`
@@ -101,4 +100,3 @@ The API validates:
 - uvicorn: ASGI server
 - httpx: Async HTTP client
 - beautifulsoup4: HTML parsing
-- pydantic: Data validation

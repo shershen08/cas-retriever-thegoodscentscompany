@@ -145,7 +145,6 @@ dependencies = [
     { name = "beautifulsoup4" },
     { name = "fastapi" },
     { name = "httpx" },
-    { name = "pydantic" },
     { name = "uvicorn" },
 ]
 
@@ -154,7 +153,6 @@ requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.14.3" },
     { name = "fastapi", specifier = ">=0.125.0" },
     { name = "httpx", specifier = ">=0.28.1" },
-    { name = "pydantic", specifier = ">=2.12.5" },
     { name = "uvicorn", specifier = ">=0.38.0" },
 ]
 
