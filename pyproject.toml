@@ -3,5 +3,5 @@ name = "py-fastapi-project"
 version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
-    "fastapi==0.110.3",
+    "fastapi>=0.117.1",
 ]
